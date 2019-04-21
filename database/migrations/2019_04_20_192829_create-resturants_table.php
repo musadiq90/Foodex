@@ -18,6 +18,7 @@ class CreateResturantsTable extends Migration
             $table->integer('rest_cat_id');
             $table->integer('user_id');
             $table->string('name');
+            
             $table->string('city');
             $table->string('email');
             $table->integer('mobile');
